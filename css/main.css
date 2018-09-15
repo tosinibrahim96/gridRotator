@@ -1,0 +1,36 @@
+body {
+    background: #4095c6;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.buttonContainer {
+    width: 30%;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.displayButton {
+    width: 100%;
+    height: 100%;
+    background: #4eb5f1;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 50px;
+}
+
+.displayButton:hover {
+    color: #4eb5f1;
+    background-color: #fff;
+}
+
+.displayButton:focus {
+    outline: 0px;
+}
